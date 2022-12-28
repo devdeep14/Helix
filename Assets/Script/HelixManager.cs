@@ -4,15 +4,35 @@ using UnityEngine;
 
 public class HelixManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject[] rings;
+
+    public int noOfRings;
+    public float ringDistance = 5f;
+    float yPos;
+
+    private void Start()
     {
-        
+        noOfRings = GameManager.currentLevelIndex + 5;
+        for(int i = 0; i < noOfRings; i++)
+        {
+            if (i == 0)
+            {   //Spawn first ring
+                SpawnRings(0);
+            }
+            else
+            {   //Spawn middle ring except last
+                SpawnRings(Random.Range(1, rings.Length - 1));
+            }
+        }
+        // Spawn last ring
+        SpawnRings(rings.Length - 1);
     }
 
-    // Update is called once per frame
-    void Update()
+    void SpawnRings(int index)
     {
-        
+        GameObject newRing = Instantiate(rings[index], new Vector3(transform.position.x, yPos, transform.position.z), Quaternion.identity);
+        yPos -= ringDistance;
+        newRing.transform.parent = transform;
     }
+
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4258690386821326323}
   - component: {fileID: 8535148470501882583}
   - component: {fileID: 8781516854011400572}
+  - component: {fileID: 8250383855070054061}
   m_Layer: 0
   m_Name: Cylinder.003
   m_TagString: Untagged
@@ -96,6 +97,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6239881831769578202, guid: 3def05579aa5b0e48809bfeec174aec3, type: 3}
+--- !u!54 &8250383855070054061
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99387723927615096}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &1151086281367285853
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +125,7 @@ GameObject:
   - component: {fileID: 4672965396867432831}
   - component: {fileID: 2017564584202107348}
   - component: {fileID: 8781516854011400574}
+  - component: {fileID: 6497937719842501135}
   m_Layer: 0
   m_Name: Cylinder.001
   m_TagString: Untagged
@@ -192,6 +210,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7387706064836869012, guid: 3def05579aa5b0e48809bfeec174aec3, type: 3}
+--- !u!54 &6497937719842501135
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151086281367285853}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &2575815969265891400
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,6 +238,7 @@ GameObject:
   - component: {fileID: 4801915043100987}
   - component: {fileID: 692472976789540957}
   - component: {fileID: 8781516854011400560}
+  - component: {fileID: 5097734699601191347}
   m_Layer: 0
   m_Name: Cylinder.007
   m_TagString: Untagged
@@ -288,6 +323,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3163171260390484736, guid: 3def05579aa5b0e48809bfeec174aec3, type: 3}
+--- !u!54 &5097734699601191347
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2575815969265891400}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &5433342897736884078
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +351,7 @@ GameObject:
   - component: {fileID: 3721761776791906603}
   - component: {fileID: 1886353724982765489}
   - component: {fileID: 8781516854011400575}
+  - component: {fileID: 6708560708960152392}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -384,6 +436,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: 3def05579aa5b0e48809bfeec174aec3, type: 3}
+--- !u!54 &6708560708960152392
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5433342897736884078}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &5526811440086071622
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,6 +464,7 @@ GameObject:
   - component: {fileID: 2829526038256760718}
   - component: {fileID: 7053600025633553727}
   - component: {fileID: 8781516854011400561}
+  - component: {fileID: 7949470027348027727}
   m_Layer: 0
   m_Name: Cylinder.006
   m_TagString: Untagged
@@ -480,6 +549,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -125435165217083709, guid: 3def05579aa5b0e48809bfeec174aec3, type: 3}
+--- !u!54 &7949470027348027727
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5526811440086071622}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &6579976553885857400
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +577,7 @@ GameObject:
   - component: {fileID: 460633935590010261}
   - component: {fileID: 1574916415751736725}
   - component: {fileID: 8781516854011400573}
+  - component: {fileID: 3069765951086738926}
   m_Layer: 0
   m_Name: Cylinder.002
   m_TagString: Untagged
@@ -576,6 +662,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8691780276856062721, guid: 3def05579aa5b0e48809bfeec174aec3, type: 3}
+--- !u!54 &3069765951086738926
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6579976553885857400}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &6846115813935127409
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,6 +690,7 @@ GameObject:
   - component: {fileID: 4240386301797189644}
   - component: {fileID: 1855035424378360646}
   - component: {fileID: 8781516854011400562}
+  - component: {fileID: 1746916621064639021}
   m_Layer: 0
   m_Name: Cylinder.005
   m_TagString: Untagged
@@ -672,6 +775,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3390558720134950976, guid: 3def05579aa5b0e48809bfeec174aec3, type: 3}
+--- !u!54 &1746916621064639021
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6846115813935127409}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &8245393648530928916
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +803,7 @@ GameObject:
   - component: {fileID: 5961636631387296237}
   - component: {fileID: 6479297429772400923}
   - component: {fileID: 8781516854011400563}
+  - component: {fileID: 4293027474302455151}
   m_Layer: 0
   m_Name: Cylinder.004
   m_TagString: Untagged
@@ -768,6 +888,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6255687079079774844, guid: 3def05579aa5b0e48809bfeec174aec3, type: 3}
+--- !u!54 &4293027474302455151
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8245393648530928916}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &8439568527923981375
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9103057359026648709}
+  - component: {fileID: -1326986167131750910}
   m_Layer: 0
   m_Name: RingModel6
   m_TagString: Untagged
@@ -807,6 +944,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1326986167131750910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439568527923981375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2589195ea760d6e4e958629ad07bb59a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childRings:
+  - {fileID: 5433342897736884078}
+  - {fileID: 1151086281367285853}
+  - {fileID: 6579976553885857400}
+  - {fileID: 99387723927615096}
+  - {fileID: 8245393648530928916}
+  - {fileID: 6846115813935127409}
+  - {fileID: 5526811440086071622}
+  - {fileID: 2575815969265891400}
 --- !u!1 &8781516853408872007
 GameObject:
   m_ObjectHideFlags: 0
