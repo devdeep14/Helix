@@ -806,7 +806,7 @@ ParticleSystem:
   m_GameObject: {fileID: 456128335}
   serializedVersion: 7
   lengthInSec: 2
-  simulationSpeed: 15
+  simulationSpeed: 50
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -986,8 +986,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0, g: 0, b: 0, a: 1}
-      maxColor: {r: 1, g: 0, b: 0.059602737, a: 1}
+      minColor: {r: 0.5019608, g: 0.2509804, b: 0.2509804, a: 1}
+      maxColor: {r: 1, g: 0, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5709,7 +5709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f56facc62c20b34cafa62cbbf40cf32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceForce: 750
+  bounceForce: 800
   splitPrefab: {fileID: 4033000973279755008, guid: 71cd1c4b267e3554393c2de97ac686bb, type: 3}
   particles: {fileID: 456128336}
 --- !u!1 &724586565

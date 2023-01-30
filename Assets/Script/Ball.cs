@@ -39,14 +39,25 @@ public class Ball : MonoBehaviour
             
         }
         if (materialName == "Unsafe (Instance)") {
-            //particles.Play();
+
+            StartCoroutine(GameOver());
             GameManager.gameOver = true;
-            //Destroy(this.gameObject);
+            particles.Play();
+            
+
             audioManager.Play("GameOver");
         }
         if (materialName == "End (Instance)" && !GameManager.levelWin) {
             GameManager.levelWin = true;
             audioManager.Play("LevelWin");
         }
+    }
+
+    public IEnumerator GameOver()
+    {
+        yield return new WaitForSeconds (0.125f);
+        Destroy(this.gameObject);
+        Time.timeScale = 0;
+
     }
 }

@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
     {
         if(gameOver)
         {
-            Time.timeScale = 0;
+            
             gameOverPanel.SetActive(true);
             if(Input.GetMouseButtonDown(0))
             {

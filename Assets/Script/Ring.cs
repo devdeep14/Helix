@@ -35,7 +35,6 @@ public class Ring : MonoBehaviour
                     {
                         rb.AddExplosionForce(force, transform.position, radius);
                     }
-
                 }
 
                 childRings[i].GetComponent<MeshCollider>().enabled = false;
